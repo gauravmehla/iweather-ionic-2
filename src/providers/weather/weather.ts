@@ -4,7 +4,7 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class WeatherProvider {
-	apiKey = '6e3b1b1215c743e4' ;
+	apiKey = '6e3b1b1215c7xxxx' ; // Change it with yours one
 	url;
 
   	constructor(public http: Http) {
